@@ -37,7 +37,7 @@
 ### 1️⃣ Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/rs.git
+git clone https://github.com/berarahul/rs-cli.git
 cd rs
 ````
 
