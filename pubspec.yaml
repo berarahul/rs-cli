@@ -1,10 +1,10 @@
 name: rs
 description: A CLI tool to generate Flutter project structure based on architecture.
 version: 1.0.0
-homepage: https://github.com/berarahul/rs
-repository: https://github.com/berarahul/rs
-issue_tracker: https://github.com/berarahul/rs/issues
-documentation: https://github.com/berarahul/rs#readme
+homepage: https://github.com/berarahul/rs-cli
+repository: https://github.com/berarahul/rs-cli.git
+issue_tracker: https://github.com/berarahul/rs-cli/issues
+documentation: https://github.com/berarahul/rs-cli/blob/main/README.md
 
 environment:
   sdk: '>=2.18.0 <4.0.0'
