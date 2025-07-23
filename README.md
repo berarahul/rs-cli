@@ -161,7 +161,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy
 
 ## 👨‍💻 Author
 
-Made with ❤️ by [**Rahul Bera**](https://github.com/your-username)
+Made with ❤️ by [**Rahul Bera**](https://github.com/berarahul)
 
 * 📧 Email: [rb6764385@gmail.com](mailto:rb6764385@gmail.com)
 * 🧰 GitHub: [berarahul](https://github.com/berarahul)
