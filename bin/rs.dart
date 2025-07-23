@@ -81,30 +81,23 @@ Future<void> createRahulArchitecture() async {
     'lib/features/login/repository/login_repository.dart': '',
     'lib/features/login/views/login_screen.dart': '',
     'lib/features/login/widgets/login_form.dart': '',
-
-
     'lib/core/constants/app_icons.dart': '',
     'lib/core/constants/app_images.dart': '',
     'lib/core/constants/app_strings.dart': '',
-
-  'lib/core/network/api_response.dart': getApiResponseBoilerplate(),  
+    'lib/core/network/api_response.dart': getApiResponseBoilerplate(),
     'lib/core/network/client_api.dart': getApiClient(),
     'lib/core/network/custom_exception.dart': getCustomException(),
-
     'lib/core/routes/routes.dart': getAppRoutes(),
-
     'lib/core/theme/app_colors.dart': getAppColors(),
     'lib/core/theme/app_text_styles.dart': getAppTextstyle(),
     'lib/core/theme/app_theme.dart': getAppTheme(),
-
     'lib/core/utils/sharedpref_helper.dart': getsharedPrefhelper(),
     'lib/core/utils/ui_helper.dart': getUiHelper(),
     'lib/core/utils/update_status_bar.dart': getUpdateStatusbar(),
-
     'lib/core/widgets/custom_button.dart': getCustombutton(),
-    'lib/core/widgets/custom_loading_indicator.dart': getCustomLoadingIndicator(),
+    'lib/core/widgets/custom_loading_indicator.dart':
+        getCustomLoadingIndicator(),
     'lib/core/widgets/custom_text_field.dart': getCustomTextfiled(),
-
   };
 
   for (var folder in folders) {
@@ -115,12 +108,11 @@ Future<void> createRahulArchitecture() async {
   for (var filePath in files.entries) {
     final file = File(filePath.key);
     await file.create(recursive: true);
-    await file.writeAsString(filePath.value); // You can insert boilerplate text here
+    await file
+        .writeAsString(filePath.value); // You can insert boilerplate text here
     print('📄 Created ${file.path}');
   }
 }
-
-
 
 String getApiResponseBoilerplate() {
   return '''
@@ -157,10 +149,8 @@ class ApiResponse<T> {
 ''';
 }
 
-
-String getApiClient(){
-
-return '''
+String getApiClient() {
+  return '''
 
 import 'package:dio/dio.dart';
 import 'package:project_shakti/core/utils/sharedpref_helper.dart';
@@ -316,9 +306,7 @@ class ApiClient {
 }
 
 String getCustomException() {
-
-
-return'''
+  return '''
 class ValidationException implements Exception {
   final String message;
   const ValidationException(this.message);
@@ -344,12 +332,8 @@ class NetworkException implements Exception {
 ''';
 }
 
-
-
 String getAppRoutes() {
-
-
-return'''
+  return '''
 
 
 class AppRoutes {
@@ -374,13 +358,8 @@ class AppRoutes {
 ''';
 }
 
-
-
-
 String getAppColors() {
-
-
-return'''
+  return '''
 
 import 'package:flutter/material.dart';
 
@@ -416,13 +395,8 @@ class AppColors {
 ''';
 }
 
-
-
-
 String getAppTextstyle() {
-
-
-return'''
+  return '''
 
 import 'package:flutter/material.dart';
 
@@ -511,14 +485,8 @@ class AppTextStyles {
 ''';
 }
 
-
-
-
-
 String getAppTheme() {
-
-
-return'''
+  return '''
 
 import 'package:flutter/material.dart';
 import 'package:project_shakti/core/theme/app_colors.dart';
@@ -677,14 +645,8 @@ class AppTheme {
 ''';
 }
 
-
-
-
-
 String getsharedPrefhelper() {
-
-
-return'''
+  return '''
 
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -722,8 +684,7 @@ class SharedPrefsHelper {
 }
 
 String getUiHelper() {
-
-return '''
+  return '''
 
 import 'package:flutter/material.dart';
 
@@ -781,14 +742,9 @@ static void showSnackBar(
 
 
 ''';
-
-
 }
 
-
-String getUpdateStatusbar (){
-
-
+String getUpdateStatusbar() {
   return '''
 
 
@@ -813,9 +769,7 @@ void updateStatusBar(BuildContext context) {
 ''';
 }
 
-String getCustombutton(){
-
-
+String getCustombutton() {
   return '''
 
 
@@ -877,11 +831,7 @@ class CustomButton extends StatelessWidget {
 ''';
 }
 
-
 String getCustomLoadingIndicator() {
-
-
-
   return '''
 
 
@@ -905,9 +855,8 @@ class CustomLoadingIndicator extends StatelessWidget {
 ''';
 }
 
-String getCustomTextfiled(){
-
-return '''
+String getCustomTextfiled() {
+  return '''
 
 import 'package:flutter/material.dart';
 import 'package:project_shakti/core/theme/app_colors.dart';
@@ -1000,5 +949,4 @@ class CustomTextField extends StatelessWidget {
 
 
 ''';
-
 }
