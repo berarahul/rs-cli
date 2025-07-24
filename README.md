@@ -1,4 +1,3 @@
-
 # 🔧 RS (Rahul Structure) - Flutter CLI Project Scaffolding Tool
 
 **RS (Rahul Structure)** is a simple yet powerful Dart-based command-line tool that helps you scaffold a Flutter project architecture instantly. Whether you prefer Clean Architecture, MVVM, or a custom folder structure, `rs` will set up everything for you in seconds!
@@ -7,15 +6,23 @@
 
 ## 📌 Table of Contents
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Architecture Options](#architecture-options)
-- [Example Project Structure](#example-project-structure)
-- [Project Directory Explained](#project-directory-explained)
-- [Contributing](#contributing)
-- [License](#license)
-- [Author](#author)
+- [🔧 RS (Rahul Structure) - Flutter CLI Project Scaffolding Tool](#-rs-rahul-structure---flutter-cli-project-scaffolding-tool)
+  - [📌 Table of Contents](#-table-of-contents)
+  - [✨ Features](#-features)
+  - [📦 Installation](#-installation)
+    - [1️⃣ Clone the Repo](#1️⃣-clone-the-repo)
+    - [2️⃣ Activate the Tool Globally](#2️⃣-activate-the-tool-globally)
+  - [🚀 Usage](#-usage)
+  - [🏗 Architecture Options](#-architecture-options)
+    - [1. Clean Architecture](#1-clean-architecture)
+    - [2. MVVM](#2-mvvm)
+    - [3. Rahul Architecture](#3-rahul-architecture)
+  - [📂 Example Project Structure](#-example-project-structure)
+  - [📁 Project Directory Explained](#-project-directory-explained)
+  - [🤝 Contributing](#-contributing)
+  - [📜 License](#-license)
+  - [👨‍💻 Author](#-author)
+  - [🔮 Coming Soon](#-coming-soon)
 
 ---
 
@@ -75,6 +82,8 @@ Enter your choice (1/2/3):
 
 After you choose, it will auto-generate the structure and print:
 
+
+✅ Successfully generated Clean Architecture project structure.
 ```
 ✅ Successfully generated Clean Architecture project structure.
 ```
@@ -87,18 +96,19 @@ You can scaffold the following:
 
 ### 1. Clean Architecture
 
-* Organizes code in layers: `data`, `domain`, `presentation`
-* Suitable for enterprise-level apps
+- Organizes code in layers: `data`, `domain`, `presentation`
+- Suitable for enterprise-level apps
 
 ### 2. MVVM
 
-* Separates `Model`, `View`, `ViewModel`
-* Great for small to medium apps with UI logic
+- Separates `Model`, `View`, `ViewModel`
+
+- Great for small to medium apps with UI logic
 
 ### 3. Rahul Architecture
 
-* Comming soon
-* Comming soon
+- Comming soon
+- Comming soon
 
 ---
 
@@ -122,11 +132,11 @@ lib/
 
 ## 📁 Project Directory Explained
 
-* `core/`: App-wide utilities, constants, error handling
-* `features/`: Divides your app by features/modules
-* `data/`: Handles API, local DB, and data sources
-* `domain/`: Business logic, use cases, entities
-* `presentation/`: UI screens, widgets, controllers
+- `core/`: App-wide utilities, constants, error handling
+- `features/`: Divides your app by features/modules
+- `data/`: Handles API, local DB, and data sources
+- `domain/`: Business logic, use cases, entities
+- `presentation/`: UI screens, widgets, controllers
 
 ---
 
@@ -148,16 +158,10 @@ Open an issue or submit a pull request — all contributions are welcome!
 
 This project is licensed under the MIT License.
 
-```
+
 MIT License
-
 Copyright (c) 2025 Rahul
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
-...
-```
-
----
 
 ## 👨‍💻 Author
 
@@ -169,6 +173,6 @@ Made with ❤️ by [**Rahul Bera**](https://github.com/berarahul)
 
 ## 🔮 Coming Soon
 
-* ☁️ Cloud templates
-* 📦 Flutter package integrations
-* 🧪 Unit test starter
+- ☁️ Cloud templates
+- 📦 Flutter package integrations
+- 🧪 Unit test starter
