@@ -1,4 +1,4 @@
-````markdown
+
 # 🔧 RS (Rahul Structure) - Flutter CLI Project Scaffolding Tool
 
 **RS (Rahul Structure)** is a simple yet powerful Dart-based command-line tool that helps you scaffold a Flutter project architecture instantly. Whether you prefer Clean Architecture, MVVM, or a custom folder structure, `rs` will set up everything for you in seconds!
